@@ -1,13 +1,20 @@
-import http from "http";
+import express from "express";
 
-const requestHandler = (req, res) => {
-  const { method, url } = req;
-  console.log(method, url);
-};
+const app = express();
+const port = process.env.PORT || 3000;
 
-const server = http.createServer(requestHandler);
+app.use(express.json());
 
-const port = 3001;
-server.listen(port, () =>
-  console.log(`Server running at http://localhost:${port}/`)
-);
+// import http from "http";
+
+// const requestHandler = (req, res) => {
+//   const { method, url } = req;
+//   console.log(method, url);
+// };
+
+// const server = http.createServer(requestHandler);
+
+// const port = 3001;
+// server.listen(port, () =>
+//   console.log(`Server running at http://localhost:${port}/`)
+// );

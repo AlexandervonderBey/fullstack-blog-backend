@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AlexandervonderBey/fullstack-blog-backend/issues"
   },
-  "homepage": "https://github.com/AlexandervonderBey/fullstack-blog-backend#readme"
+  "homepage": "https://github.com/AlexandervonderBey/fullstack-blog-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
