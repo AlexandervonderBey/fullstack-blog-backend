@@ -1,20 +1,14 @@
 import express from "express";
+import pg from "pg";
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// import http from "http";
+// functions for different hht methods and routes
+app.get("/", (req, res) => {});
 
-// const requestHandler = (req, res) => {
-//   const { method, url } = req;
-//   console.log(method, url);
-// };
-
-// const server = http.createServer(requestHandler);
-
-// const port = 3001;
-// server.listen(port, () =>
-//   console.log(`Server running at http://localhost:${port}/`)
-// );
+app.listen(port, () => {
+  console.log(`Server is running on  http://localhost:${port}`);
+});
