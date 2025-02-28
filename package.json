@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-blog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandervonderBey/fullstack-blog-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandervonderBey/fullstack-blog-backend/issues"
+  },
+  "homepage": "https://github.com/AlexandervonderBey/fullstack-blog-backend#readme"
+}
