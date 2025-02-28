@@ -21,7 +21,8 @@
   "homepage": "https://github.com/AlexandervonderBey/fullstack-blog-backend#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "pg": "^8.13.3"
+    "pg": "^8.13.3",
+    "pg-promise": "^11.10.2"
   },
   "devDependencies": {
     "dotenv": "^16.4.7"
