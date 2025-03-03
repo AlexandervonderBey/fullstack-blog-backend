@@ -22,7 +22,9 @@
   "dependencies": {
     "express": "^4.21.2",
     "pg": "^8.13.3",
-    "pg-promise": "^11.10.2"
+    "pg-hstore": "^2.3.4",
+    "pg-promise": "^11.10.2",
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
     "dotenv": "^16.4.7"
